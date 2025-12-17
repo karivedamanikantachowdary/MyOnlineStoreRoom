@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Registration Form</title>
+
+		<style type="text/css">
+			*{
+			padding:0px;
+			margin:0px;
+			}
+			
+			h1, table{
+				text-align:center;
+			}
+
+			input, textarea{
+				width:500px;
+				padding:7px;
+			}
+
+			h1{
+				border:3px red solid;
+				margin-left:300px;
+				margin-right:300px;
+				padding:15px;
+			}
+
+			table{
+				border:3px red solid;
+				margin:100px;
+				margin-left:450px;
+				padding:15px;
+			}
+
+			button{
+			width:150px;
+			border-radius:5px;
+			font-style:bold;
+			background-color:Orange;
+			color:white;
+			padding:7px;
+			margin-top:10px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1>To Create New Account Register Here!...</h1>
+
+		<table>
+
+			<form method="post" action="./register" target="_blank">
+
+				<tr>	<td>Username:</td>	<td><input type="text" name="uname" placeholder="Create Username:" /></td>	</tr>
+
+				<tr>	<td>Contact Number:</td>	<td><input type="text" name="contact" placeholder="Enter Your Phone Number: " /></td>	</tr>
+
+				<tr>	<td>Email:</td>		<td><input type="text" name="email" placeholder="Enter Your Email Address: " /></td>	</tr>
+
+				<tr>	<td>Address:</td>	<td><textarea rows="10" cols="25" name="address" placeholder="Enter Your Address: "></textarea></td> </tr>
+
+				<tr>	<td>Password:</td>	<td><input type="text" name="pwd" placeholder="Enter Your Password: " /></td>	</tr>
+
+				<tr>	<td colspan="2"><button type="submit">Register</button></td>	</tr>
+
+			</form>
+
+		</table>
+
+	</body>
+</html>

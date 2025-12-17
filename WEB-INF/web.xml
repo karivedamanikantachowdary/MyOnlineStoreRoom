@@ -1,0 +1,51 @@
+<web-app>
+	
+	<servlet>
+
+		<servlet-name>sp</servlet-name>
+
+		<servlet-class>StoreProduct</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>sp</servlet-name>
+
+		<url-pattern>/submitproduct</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+
+		<servlet-name>register</servlet-name>
+
+		<servlet-class>RegisterUser</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>register</servlet-name>
+
+		<url-pattern>/register</url-pattern>
+
+	</servlet-mapping>
+
+	<servlet>
+
+		<servlet-name>login</servlet-name>
+
+		<servlet-class>AuthenticateUser</servlet-class>
+
+	</servlet>
+
+	<servlet-mapping>
+
+		<servlet-name>login</servlet-name>
+
+		<url-pattern>/authenticate</url-pattern>
+
+	</servlet-mapping>
+
+</web-app>

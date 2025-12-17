@@ -1,0 +1,76 @@
+<html>
+	<head>
+
+		<title>My Online Store</title>
+
+		<style>
+
+			*{
+			margin:0px;
+			padding:0px;
+			}
+
+			h1{
+			border:3px Blue solid;
+			text-align:center;
+			padding:10px;
+			font-family:Rockwell;
+			}
+
+			form{
+			border:3px blue solid;
+			text-align:center;
+			padding:15px;
+			margin:180px;
+			margin-left:450px;
+			margin-right:450px;
+			font-weight:bold;
+			}
+
+			button{
+			padding:5px;
+			border-radius:5px;
+			font-weight:bold;
+			background-color:#FF5722;
+			color:#FFFFFF;
+			}
+
+			button:hover{
+			background-color:#E64A19;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+	
+	<h1>My Online Store</h1>
+
+	<form method="post" action="./submitproduct" target="_blank">  <!--Need to clarify doubt at action attribute and web.xml program -->
+
+		Product Name: 
+		<input type="text" name="pname"/>	<br/><br/>
+
+		Product ID:
+		<input type="text" name="pid"/>		<br/><br/>
+
+		Category:
+		<select name="cat">
+
+			<option>Mobile</option>
+			<option>TV</option>
+			<option>Desktop</option>
+
+		</select>							<br/></br>
+
+		Quantity:
+		<input type="text" name="qty"/>		<br/><br/>
+
+		<button type="submit">Register</button>
+
+	</form>
+
+	</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+
+		<title>Authentication Form</title>
+
+		<style>
+			*{
+			padding:0px;
+			margin:0px;
+			}
+
+			h1, h5, table{
+				text-align:center;
+			}
+
+			input, textarea{
+				width:300px;
+				padding:7px;
+			}
+
+			h1{
+				border:3px red solid;
+				margin-left:300px;
+				margin-right:300px;
+				padding:15px;
+			}
+
+			h2{
+				margin-left:350px;
+				margin-bottom:50px;
+			}
+
+			table{
+				border:3px red solid;
+				margin-bottom:50px;
+				margin-left:500px;
+				padding:15px;
+				text-align:center;
+			}
+
+			button{
+			width:150px;
+			border-radius:5px;
+			font-style:bold;
+			background-color:Orange;
+			color:white;
+			padding:8px;
+			}
+
+			.out{
+			margin-left:670px;
+			}
+
+			td{
+			padding:15px;
+			width:15px;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1>Login Form</h1>
+
+		<table>
+			
+			<h2>if you are user!..,</h2>
+
+			<form method="post" action="./authenticate" target="_blank">
+
+				<tr>	<td>Email:</td>	<td><input type="text" name="email" placeholder="Enter Your Email: " required/></td>	</tr>
+
+				<tr>	<td>Password:</td>	<td><input type="text" name="pwd" placeholder="Enter Your Password: " required/> </td>	</tr>
+				
+				<tr>	<td colspan="2"><button type="submit">Log In</button></td> 	</tr>
+
+			</form>	
+			
+		</table>
+
+		<h2>If Not Registered Yet!!!....</h2>
+
+		<a href="RegisterForm.html" class="out"><button>Create New Account</button></a>
+
+	</body>
+
+</html>
